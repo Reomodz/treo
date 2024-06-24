@@ -657,7 +657,7 @@ def handle_bgmi(message):
                             response = f"BGMI attack finished. Target: {target} Port: {port} Time: {time}"
                             bot.reply_to(message, response)  # Notify the user that the attack is finished
                     else:
-                        response = "Usage: /bgmi <target> <port> <time>"  # Updated command syntax
+                        response = "Usage: /reo <target> <port> <time>"  # Updated command syntax
                 else:
                     response = "Your access has expired. Please renew your subscription."
             else:
