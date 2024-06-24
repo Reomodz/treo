@@ -7,8 +7,6 @@ import tempfile
 import time
 import subprocess
 
-from keep_alive import keep_alive
-keep_alive()
 
 # Replace 'YOUR_BOT_TOKEN' with your actual Telegram bot token
 bot = telebot.TeleBot('7370183113:AAElyslMmO0_Ieya0-CRNWnl-zGksnTeArk')
